@@ -1,13 +1,14 @@
 // ==UserScript==
-// @updateURL   https://raw.githubusercontent.com/Thibd162/smacsas-script/main/smacsas.user.js
-// @downloadURL https://raw.githubusercontent.com/Thibd162/smacsas-script/main/smacsas.user.js
-// @name         Raccourci débours
+// @name         SMACSAS - Raccourci débours
 // @namespace    http://tampermonkey.net/
-// @version      2025-07-29.1
-// @description  Raccourci débours
-// @author       Thibault DEWAS
+// @version      1.0
+// @description  Script de Raccourci débours
+// @author       Thibd162
 // @match        https://smacsaspro.com/devis/*
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=smacsaspro.com
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/Thibd162/smacsas-script/main/smacsas.user.js
+// @downloadURL  https://raw.githubusercontent.com/Thibd162/smacsas-script/main/smacsas.user.js
 // ==/UserScript==
 
 (function () {
