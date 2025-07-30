@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Script de Raccourci débours
-// @author       Thibd162
+// @author       Thibault Dew
 // @match        https://smacsaspro.com/devis/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=smacsaspro.com
 // @grant        none
