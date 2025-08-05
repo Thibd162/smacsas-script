@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         SMACSAS - Raccourci débours devs
+// @name         SMACSAS - Raccourci débours
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Script de Raccourci débours
 // @author       Thibault Dew
 // @match        https://smacsaspro.com/devis/*
