@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         SMACSAS - Raccourci débours
+// @name         SMACSAS - Raccourci débours devs
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  Script de Raccourci débours
@@ -17,6 +17,19 @@
     const STORAGE_KEY = "custom_groups_dragdrop_v5";
     let editMode = false;
     let deleteMode = false;
+
+const style = document.createElement('style');
+    style.textContent = `
+    .modal-backdrop {
+        position: fixed !important;
+        top: 0 !important;
+        bottom: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        background-color: rgba(0, 0, 0, 0.5) !important;
+    }
+    `;
+    document.head.appendChild(style);
 
     function loadGroups() {
         return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"groups":[],"ungrouped":[]}');
