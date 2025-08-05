@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SMACSAS - Raccourci débours
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.5
 // @description  Script de Raccourci débours
 // @author       Thibault Dew
 // @match        https://smacsaspro.com/devis/*
@@ -464,6 +464,7 @@ rightControls.appendChild(importBtn);
     observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["class", "style"] });
     setTimeout(injectUI, 1000);
 })();
+
 
 
 
