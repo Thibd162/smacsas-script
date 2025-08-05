@@ -7,8 +7,8 @@
 // @match        https://smacsaspro.com/devis/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=smacsaspro.com
 // @grant        none
-// @updateURL    https://raw.githubusercontent.com/Thibd162/smacsas-script/main/smacsas.user.js
-// @downloadURL  https://raw.githubusercontent.com/Thibd162/smacsas-script/main/smacsas.user.js
+// @updateURL    https://github.com/Thibd162/smacsas-script/raw/main/smacsas.user.js
+// @downloadURL  https://github.com/Thibd162/smacsas-script/raw/main/smacsas.user.js
 // ==/UserScript==
 
 (function () {
@@ -464,3 +464,4 @@ rightControls.appendChild(importBtn);
     observer.observe(document.body, { childList: true, subtree: true, attributes: true, attributeFilter: ["class", "style"] });
     setTimeout(injectUI, 1000);
 })();
+
