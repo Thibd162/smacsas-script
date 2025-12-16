@@ -28,8 +28,15 @@ const style = document.createElement('style');
         right: 0 !important;
         background-color: rgba(0, 0, 0, 0.5) !important;
     }
+    .display_ressources {
+    width: 37px !important;
+  }
+
     `;
     document.head.appendChild(style);
+
+
+
 
     function loadGroups() {
         return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{"groups":[],"ungrouped":[]}');
